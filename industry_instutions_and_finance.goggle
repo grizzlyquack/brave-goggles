@@ -14,7 +14,7 @@ $boost=3,site=creditsights.com
 $boost=3,site=insight.factset.com
 $boost=3,site=pitchbook.com
 $boost=3,site=iea.org
-$boost=3,site=mees.com ! founded in 1957 as a private weekly newsletter for Aramco
+$boost=3,site=mees.com
 $boost=2,site=pymnts.com
 insights/$boost=2,site=futurumgroup.com
 $boost=1,site=atlanticcouncil.org
@@ -45,11 +45,11 @@ $boost=1,site=nytimes.com
 
 ! Adjacent Outlets
 blog/$boost=2,site=introl.com
-$boost=1,business-standard.com
-$boost=1,taipeitimes.com
-$boost=1,fairobserver.com
-$boost=1,crowdfundinsider.com
-$boost=1,eetasia.com
+$boost=1,site=business-standard.com
+$boost=1,site=taipeitimes.com
+$boost=1,site=fairobserver.com
+$boost=1,site=crowdfundinsider.com
+$boost=1,site=eetasia.com
 
 ! Independent Media
 $boost=1,site=substack.com
