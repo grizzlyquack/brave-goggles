@@ -1,0 +1,61 @@
+! name: Industry, Institutions and Finance
+! description: Reorients results to be from a list of high-quality governmental, institutional or reputable finance sources.
+! public: false
+! author: Anonymous
+
+! Discard by default uncomment toggle
+! $discard
+
+! Institutions
+$boost=3,site=
+$boost=3,site=
+$boost=3,site=mckinsey.com
+$boost=3,site=deloitte.com
+$boost=3,site=proskauer.com
+$boost=3,site=creditsights.com
+$boost=3,site=insight.factset.com
+$boost=3,site=pitchbook.com
+$boost=3,site=iea.org
+$boost=3,site=mees.com ! founded in 1957 as a private weekly newsletter for Aramco
+$boost=2,site=pymnts.com
+insights/$boost=2,site=futurumgroup.com
+$boost=1,site=atlanticcouncil.org
+
+! Institutional Publications
+$boost=2,site=techstrong.ai
+$boost=1,site=multiples.vc
+$boost=1,site=wolfstreet.com
+$boost=1,site=techblog.comsoc.org
+
+! Governmental
+/econres/notes/$boost=3,site=federalreserve.gov
+/monetarypolicy/$boost=3,site=federalreserve.gov
+/newsevents/speech/$boost=3,site=federalreserve.gov
+/publication/$boost=3,site=cbo.gov
+/country-commercial-guides/$boost=3,site=trade.gov
+boost=3,site=eia.gov
+
+! Reputable Outlets
+$boost=3,site=cnbc.com
+$boost=2,site=bloomberg.com
+$boost=2,site=businessinsider.com
+$boost=2,site=ft.com
+$boost=2,site=reuters.com
+$boost=2,site=fortune.com
+$boost=1,site=forbes.com
+$boost=1,site=nytimes.com
+
+! Adjacent Outlets
+blog/$boost=2,site=introl.com
+$boost=1,business-standard.com
+$boost=1,taipeitimes.com
+$boost=1,fairobserver.com
+$boost=1,crowdfundinsider.com
+$boost=1,eetasia.com
+
+! Independent Media
+$boost=1,site=substack.com
+
+
+
+! Known Bad Sources - this is functionally useless when discard is un-commented but represent a permanent reference blacklist
