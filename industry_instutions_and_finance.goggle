@@ -3,35 +3,70 @@
 ! public: false
 ! author: Anonymous
 
-! Discard by default uncomment toggle
-! $discard
+! Discard by default comment/uncomment toggle
+$discard
 
 ! Institutions
 $boost=3,site=mckinsey.com
 $boost=3,site=deloitte.com
 $boost=3,site=proskauer.com
+$boost=3,site=gartner.com
+$boost=3,site=moodys.com
+$boost=3,site=forrester.com
+$boost=3,site=fitch.com
+$boost=3,site=pitchbook.com
+$boost=3,site=morganlewis.com
+$boost=3,site=akingump.com
+$boost=3,site=lw.com
+/news-resources/$boost=3,site=lsta.org
 $boost=3,site=creditsights.com
 $boost=3,site=insight.factset.com
-$boost=3,site=pitchbook.com
 $boost=3,site=iea.org
 $boost=3,site=mees.com
+$boost=3,site=trendforce.com
+$boost=3,site=semiconductors.org
 $boost=2,site=pymnts.com
 insights/$boost=2,site=futurumgroup.com
+$boost=2,site=csis.org
+/en/topics/$boost=2,site=oecd.org
+$boost=1,site=crisisgroup.org
+$boost=1,site=carnegieendowment.org
 $boost=1,site=atlanticcouncil.org
+$boost=1,site=cfr.org
+$boost=1,site=hudson.org
 
 ! Institutional Publications
-$boost=2,site=techstrong.ai
+$boost=3,site=global-infra.com
+/news/$boost=3,site=businesswire.com
+$boost=3,site=techstrong.ai
+/news/$boost=2,site=shipmanagementinternational.com
+$boost=2,site=elements.visualcapitalist.com
+/post/$boost=1,site=sourceability.com
 $boost=1,site=multiples.vc
-$boost=1,site=wolfstreet.com
 $boost=1,site=techblog.comsoc.org
+$boost=1,site=wolfstreet.com
+$boost=1,site=theoregongroup.com
+$boost=1,site=theoregongroup.substack.com
+
+! Academic
+$boost=2,site=ai-analytics.wharton.upenn.edu
+$boost=2,site=nber.org
 
 ! Governmental
 /econres/notes/$boost=3,site=federalreserve.gov
 /monetarypolicy/$boost=3,site=federalreserve.gov
 /newsevents/speech/$boost=3,site=federalreserve.gov
+/publications/$boost=3,site=chicagofed.org
 /publication/$boost=3,site=cbo.gov
 /country-commercial-guides/$boost=3,site=trade.gov
 boost=3,site=eia.gov
+boost=3,site=pubs.usgs.gov
+boost=3,site=financialresearch.gov
+boost=3,site=news.usni.org
+
+! Legal
+$boost=2,site=securitieslawyer.com
+$boost=1,site=compliquest.com
 
 ! Reputable Outlets
 $boost=3,site=cnbc.com
@@ -42,18 +77,27 @@ $boost=2,site=reuters.com
 $boost=2,site=fortune.com
 $boost=1,site=forbes.com
 $boost=1,site=nytimes.com
+$boost=1,site=axios.com
 
 ! Adjacent Outlets
 blog/$boost=2,site=introl.com
 $boost=1,site=business-standard.com
+$boost=1,site=stockhead.com.au
 $boost=1,site=taipeitimes.com
 $boost=1,site=fairobserver.com
+$boost=1,site=247wallst.com
 $boost=1,site=crowdfundinsider.com
 $boost=1,site=eetasia.com
+/article/$boost=1,site=seekingalpha.com
+$boost=1,site=moderndiplomacy.eu
+$boost=1,site=economy.ac
 
 ! Independent Media
 $boost=1,site=substack.com
+$boost=1,site=decodingdiscontinuity.com
+$boost=1,site=accreditedinsight.com
+$boost=1,site=longyield.substack.com
 
-
-
-! Known Bad Sources - this is functionally useless when discard is un-commented but represent a permanent reference blacklist
+! Known Bad Sources - this is functionally useless when discard is not commented but otherwise represents a permanent reference blacklist
+! AI Content
+$discard,site=sqmagazine.co.uk
