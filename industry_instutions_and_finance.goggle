@@ -7,8 +7,6 @@
 ! $discard
 
 ! Institutions
-$boost=3,site=
-$boost=3,site=
 $boost=3,site=mckinsey.com
 $boost=3,site=deloitte.com
 $boost=3,site=proskauer.com
