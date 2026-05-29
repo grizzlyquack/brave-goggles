@@ -4,7 +4,7 @@
 ! author: Anonymous
 
 ! Discard by default uncomment toggle
-! $discard
+$discard
 
 ! Institutions
 $boost=3,site=mckinsey.com
