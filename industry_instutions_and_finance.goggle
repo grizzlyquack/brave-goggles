@@ -12,10 +12,15 @@ $boost=3,site=bcg.com
 $boost=3,site=vanguard.com
 $boost=3,site=vanguardmexico.com
 $boost=3,site=deloitte.com
+$boost=3,site=ey.com
+$boost=3,site=kpmg.com
+$boost=3,site=pwc.com
 $boost=3,site=proskauer.com
 $boost=3,site=gartner.com
+$boost=3,site=mercer.com
 $boost=3,site=moodys.com
-$boost=3,site=forrester.com
+/blogs/$boost=3,site=forrester.com
+$boost=3,site=mofo.com
 $boost=3,site=fitch.com
 $boost=3,site=pitchbook.com
 $boost=3,site=morganlewis.com
@@ -25,28 +30,54 @@ $boost=3,site=lw.com
 $boost=3,site=creditsights.com
 $boost=3,site=insight.factset.com
 $boost=3,site=advantage.factset.com
+$boost=3,site=aima.org
+$boost=3,site=harbourfrontwealth.com
 $boost=3,site=iea.org
 $boost=3,site=fsb.org
 $boost=3,site=idc.com
 $boost=3,site=mees.com
 $boost=3,site=trendforce.com
+$boost=3,site=ajg.com
 $boost=3,site=semiconductors.org
+$boost=3,site=finra.org
 $boost=3,site=goldmansachs.com
 $boost=3,site=privatebank.jpmorgan.com
 $boost=3,site=am.jpmorgan.com
+$boost=3,site=jpmorganchase.com
+$boost=3,site=morganstanley.com
+$boost=3,site=newsroom.bankofamerica.com
+/us/en/newsroom/$boost=3,site=robinhood.com
+$boost=3,site=investors.robinhood.com
 $boost=3,site=investor.cisco.com
 $boost=3,site=investor.oracle.com
+/think/$boost=3,site=ibm.com
 $boost=3,site=openai.com
+/blog/$boost=3,site=cloud.google.com
 $boost=3,site=investor.atmeta.com
+$boost=3,site=tax.thomsonreuters.com
 /investors/$boost=3,site=realtyincome.com
 $boost=3,site=news.crunchbase.com
+$boost=3,site=blog.numer.ai
+$boost=3,site=reedsmith.com
+$boost=3,site=nortonrosefulbright.com
+/en/insights/$boost=3,site=sidley.com
+/en/$boost=3,site=fisherphillips.com
+/insights/memo/$boost=3,site=sullcrom.com
+$boost=3,site=klgates.com
+$boost=3,site=goodwinlaw.com
+/en-us/insights/$boost=3,site=dlapiper.com
+$boost=3,site=nysba.org
 $boost=2,site=pymnts.com
-insights/$boost=2,site=futurumgroup.com
+/insights/$boost=2,site=futurumgroup.com
+$boost=2,site=marex.com
 $boost=2,site=csis.org
 /en/publications/$boost=2,site=imf.org
+$boost=2,site=elibrary.imf.org
 /en/topics/$boost=2,site=oecd.org
 /publication/$boost=2,site=unctad.org
 $boost=2,site=gold.org
+/en-US/events-insights-news/$boost=2,site=bclplaw.com
+$boost=2,site=cvvc.com
 $boost=1,site=finops.org
 $boost=1,site=crisisgroup.org
 $boost=1,site=carnegieendowment.org
@@ -56,12 +87,17 @@ $boost=1,site=hudson.org
 /voxeu/$boost=1,site=cepr.org
 $boost=1,site=futureoflife.org
 $boost=1,site=artificialintelligenceact.eu
+$boost=1,site=straitsresearch.com
+$boost=1,site=coherentmarketinsights.com
+
 
 ! Institutional Publications
 $boost=3,site=global-infra.com
+$boost=3,site=privateequitylitigation.com
 /news/$boost=3,site=businesswire.com
 $boost=3,site=techstrong.ai
-$boost=3,site=techstrong.ai
+$boost=3,site=regulationtomorrow.com
+$boost=3,site=wtwco.com
 /news/$boost=2,site=shipmanagementinternational.com
 $boost=2,site=elements.visualcapitalist.com
 $boost=1,site=logisticsviewpoints.com
@@ -73,41 +109,64 @@ $boost=1,site=theoregongroup.com
 $boost=1,site=theoregongroup.substack.com
 
 ! Academic
+$boost=3,site=d3.harvard.edu
+$boost=3,site=jbs.cam.ac.uk
+$boost=3,site=cambridgenetwork.co.uk
 $boost=2,site=ai-analytics.wharton.upenn.edu
 /issues/$boost=2,site=budgetmodel.wharton.upenn.edu
 $boost=2,site=nber.org
 $boost=2,site=journals.indexcopernicus.com
 $boost=2,site=arxiv.org
+$boost=2,site=mdpi.com
+$boost=2,site=dl.acm.org
+/journals/$boost=1,site=frontiersin.org
+$boost=1,site=innovativehumancapital.com
 
 ! Governmental
 /econres/notes/$boost=3,site=federalreserve.gov
 /monetarypolicy/$boost=3,site=federalreserve.gov
 /newsevents/speech/$boost=3,site=federalreserve.gov
 /publications/$boost=3,site=chicagofed.org
+/research/$boost=3,site=dallasfed.org
 /publication/$boost=3,site=cbo.gov
 /country-commercial-guides/$boost=3,site=trade.gov
-boost=3,site=eia.gov
-boost=3,site=pubs.usgs.gov
-boost=3,site=financialresearch.gov
-/blogs/boost=3,site=crfb.org
-boost=3,site=bls.gov
-/crs-product/boost=3,site=congress.gov
-boost=3,site=news.usni.org
-/en/boost=3,site=ec.europa.eu
-/en/boost=3,site=commission.europa.eu
-/en/press/boost=3,site=consilium.europa.eu
+$boost=3,site=eia.gov
+$boost=3,site=pubs.usgs.gov
+$boost=3,site=financialresearch.gov
+/blogs/$boost=3,site=crfb.org
+/PressRoom/SpeechesTestimony/$boost=3,site=cftc.gov
+$boost=3,site=bls.gov
+/newsroom/press-releases/$boost=3,site=sec.gov
+/news-and-events/exams/$boost=3,site=sec.gov
+/products/$boost=3,site=gao.gov
+/crs-product/$boost=3,site=congress.gov
+$boost=3,site=news.usni.org
+$boost=3,site=publications.parliament.uk
+$boost=3,site=committees.parliament.uk
+/en/$boost=3,site=ec.europa.eu
+/en/$boost=3,site=commission.europa.eu
+/en/press/$boost=3,site=consilium.europa.eu
+/en/$boost=3,site=rulebook.centralbank.ae
+/news/$boost=3,site=mas.gov.sg
+/about-asic/news-centre/$boost=3,site=asic.gov.au
 
-! Legal
+! Smaller Law Institutions and Legal Outlets
+$boost=2,site=abajournal.com
+/post/$boost=2,site=rrcompliance.com
+/report/$boost=2,site=conventuslaw.com
 $boost=2,site=securitieslawyer.com
 $boost=1,site=compliquest.com
 /en/$boost=1,site=kennedyslaw.com
 
 ! Reputable Outlets
 $boost=3,site=cnbc.com
+$boost=3,site=cnbctv18.com
+$boost=3,site=about.bnef.com
 $boost=2,site=bloomberg.com
 $boost=2,site=businessinsider.com
 $boost=2,site=ft.com
 $boost=2,site=reuters.com
+$boost=2,site=finance.yahoo.com
 $boost=2,site=fortune.com
 $boost=1,site=tomshardware.com
 $boost=1,site=forbes.com
@@ -116,9 +175,20 @@ $boost=1,site=axios.com
 
 ! Adjacent Outlets
 $boost=2,site=thestreet.com
-blog/$boost=2,site=introl.com
+$boost=2,site=americanbanker.com
+$boost=2,site=hedgeweek.com
+$boost=2,site=bankingdive.com
+/news/$boost=2,site=tradersmagazine.com
+/blog/$boost=2,site=introl.com
+$boost=2,site=artificialintelligence-news.com
+$boost=2,site=entrepreneur.com
+$boost=2,site=fintech.global
+$boost=2,site=prismnews.com
 $boost=2,site=professionalpensions.com
 $boost=2,site=thesaascfo.com
+$boost=1,site=ctomagazine.com
+/us/$boost=1,site=coinshares.com
+$boost=1,site=emerj.com
 $boost=1,site=investing.com
 $boost=1,site=stockanalysis.com
 $boost=1,site=wallstreetzen.com
@@ -126,11 +196,18 @@ $boost=1,site=business-standard.com
 $boost=1,site=stockhead.com.au
 $boost=1,site=taipeitimes.com
 $boost=1,site=fairobserver.com
+$boost=1,site=trainingthestreet.com
+$boost=1,site=decrypt.co
 $boost=1,site=siliconanalysts.com
+$boost=1,site=thedigitalbanker.com
+$boost=1,site=vantagepoint.io
+$boost=1,site=cloudwars.com
 $boost=1,site=247wallst.com
 $boost=1,site=crowdfundinsider.com
 $boost=1,site=eetasia.com
 /article/$boost=1,site=seekingalpha.com
+/blogposting/$boost=1,site=finextra.com
+$boost=1,site=coingecko.com
 $boost=1,site=moderndiplomacy.eu
 $boost=1,site=economy.ac
 
@@ -138,8 +215,17 @@ $boost=1,site=economy.ac
 $boost=1,site=substack.com
 $boost=1,site=decodingdiscontinuity.com
 $boost=1,site=accreditedinsight.com
+$boost=1,site=operatingbyjohnbrewton.com
+$boost=1,site=ai-street.co
+! Redundant Substack Domain List but preserved as whitelist
 $boost=1,site=longyield.substack.com
+$boost=1,site=businessanalytics.substack.com
+$boost=1,site=youngandcalculated.substack.com
 
 ! Known Bad Sources - this is functionally useless when discard is un-commented but represent a permanent reference blacklist
 ! AI Content
 $discard,site=sqmagazine.co.uk
+
+
+! Active COI Poorly Sourced Content Publisher
+$discard,site=reruption.com
