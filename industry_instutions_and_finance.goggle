@@ -1,5 +1,5 @@
 ! name: Industry, Institutions and Finance
-! description: Reorients results to be from a list of high-quality governmental, institutional or reputable finance sources.
+! description: Reorients results to be from a list of high-quality governmental, institutional or reputable finance/legal sources.
 ! public: false
 ! author: Anonymous
 
@@ -116,9 +116,9 @@ $boost=2,site=ai-analytics.wharton.upenn.edu
 /issues/$boost=2,site=budgetmodel.wharton.upenn.edu
 $boost=2,site=nber.org
 $boost=2,site=journals.indexcopernicus.com
-$boost=2,site=arxiv.org
 $boost=2,site=mdpi.com
 $boost=2,site=dl.acm.org
+$boost=1,site=arxiv.org
 /journals/$boost=1,site=frontiersin.org
 $boost=1,site=innovativehumancapital.com
 
